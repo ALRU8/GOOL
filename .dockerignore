@@ -1,0 +1,8 @@
+.venv
+.git
+storage
+__pycache__
+*.pdf
+*.pptx
+Летопись природы
+.env

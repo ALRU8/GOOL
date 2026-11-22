@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="/static/favicon.png">
+<title>GOOL</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&subset=cyrillic&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/style.css?v=36">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="#/search" aria-label="GOOL"><img src="/static/logo.png" alt="GOOL" height="34"></a>
+  <nav id="nav" aria-label="Разделы">
+    <a href="#/search" data-r="search">Поиск</a>
+    <a href="#/docs" data-r="docs">Документы</a>
+    <a href="#/tables" data-r="tables">Таблицы и рисунки</a>
+    <a href="#/quality" data-r="quality">Качество</a>
+    <a href="#/dict" data-r="dict">Справочники</a>
+  </nav>
+  <div class="spacer"></div>
+  <span id="status" class="status" role="status"></span>
+</header>
+<main id="view"></main>
+<aside id="drawer" class="drawer" aria-label="Карточка записи"></aside>
+<footer class="foot">GOOL. Многолетние наблюдения заповедника «Пасвик». Заповедный хакатон, кейс 1.</footer>
+<script src="/static/app.js?v=36"></script>
+</body>
+</html>
