@@ -58,7 +58,3 @@ tests/          pytest
 ## Перенос в Yandex Cloud
 
 ВМ с Docker (`docker compose up -d --build`); `STORAGE_BACKEND=s3` для Object Storage; Managed PostgreSQL через `DATABASE_URL`; секреты в Lockbox.
-
-## Ограничения
-
-Качество зависит от скана; нет аккаунтов и ролей (закройте доступ перед публикацией в интернет); у части мест нет координат; .doc и .xls не поддерживаются.
